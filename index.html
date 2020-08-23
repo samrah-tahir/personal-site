@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!--
+            THESE ARE BY NOTES WHILE I WAS LEARNING AND AM TOO LAZY TO DELETE THEM SORRY! :>
+NOTES!
+-<div> dont do much own its own, unless css is used 
+      with them. Known as Content Division Element.
+-divs, p, h1-6, forms, are all block elements. They take up the entire page and
+-dont let other elements beside them.
+-<span> is an inline element, they let other elements sit beside them.
+- we can make block elemnts act like inline elements and vice versa
+- The width and height of block elements can be changed whereas same cannot be done for inline
+- Inline only lets other elements sit beside it
+- To get the best of both worlds, change width and let other elements sit beside other elements,
+  we can use a rule such as 
+                            display: inline-block;
+  other values display property could possess: inline, block, none(hides the element, other 
+  element beside it takes up its place), inline-block.
+-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Samrah Tahir</title>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Sacramento&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="favicon-32x32.png" type="image/png">
+        
+    </head>
+    <body>
+        <div class="top-container">
+            <img class="cloud-top" src="images/cloud.png" alt="cloud-img">
+            <h1>I'm Samrah.</h1>
+            <h2>a <span class="pro">pro</span>grammer.</h2>
+            <img class="cloud-bottom" src="images/cloud.png" alt="cloud-img">
+            <img src="images/mountain.png" alt="mountain-img">
+        </div>
+
+        <div class="middle-container">
+            <div class="profile">
+              <img class="profile-pic" src="https://image.flaticon.com/icons/svg/3113/3113272.svg" alt="profile-picture">
+              <h2>Hello.</h2>
+              <p class="intro">I'm a BSc - INFTECH student, currently enrolled in Curtin University, working towards becoming a web developer.</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My Skills.</h2>
+              <div class="skill-row">
+                <img class="html" src="https://image.flaticon.com/icons/svg/2721/2721267.svg" alt="html">
+                <img class="css" src="https://image.flaticon.com/icons/svg/2535/2535494.svg" alt="css">
+                <h3>Design</h3>
+                <p class="css-description">I can make your websites look responsive, beautiful, and elegant with technologies such as HTML5 and CSS3!</p>
+              </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+              <h2>Get In Touch</h2>
+              <h3>Want me to make you amazing websites?</h3>
+              <p class="contact-message">If you want me to design your websites or just want to get in touch, just shoot me an Email!</p>
+              <a class="btn" href="mailto:samrah.tahir11@email.com">CONTACT ME</a>
+            </div>
+        </div>
+         
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/samrah-tahir">LinkedIn</a>
+            <p class="copyright">© 2020 Samrah Tahir.</p>
+        </div>
+          
+    </body>
+</html>

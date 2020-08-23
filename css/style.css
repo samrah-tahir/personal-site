@@ -1,0 +1,190 @@
+/*
+
+                      THESE ARE BY NOTES WHILE I WAS LEARNING AND AM TOO LAZY TO DELETE THEM SORRY! :>
+NOTES!
+- to make the div all all the way up and remove the gaps, we set the body as well as the h1's
+  margin to zero.
+- divs will have have the height and width of the content within it.
+
+CENTER OBJECTS ON SCREEN!!
+- Use the object centering rules on the PARENT of the objects.
+- using text-align: center. This only works if the objects are block elements or inline-block. 
+  But if the width of the element is changed, then this rule does not work to centre the object on screen.
+- Another rule that always works to centre objects is margin: 0 auto
+
+- body and h1 have default margins set, they can be seen from developer tools on chrome. 
+- no need to specify the unit if the value of a property such as margin is going to be zero.
+
+POSITION PROPERTY!
+- postion: absolute is used when u change your objects position relative to your body tags positons
+- positions: relative is used when u want to change the position of an object relative to its own 
+  previous position when used with other properties like left and right.
+
+A COMBINATION OF BOTH!
+- Setting the parent tag as position: relative and child tag as position absolute, lets the child move around
+  relative to the parent. (By using left and right properties ofcourse)
+- IMP PROPERTY IN THIS LECTURE:
+- display: [value];
+- visibility: [value]; (hides an element on the page, but keeps its place)
+
+FONT-SIZE!!
+- Fonts, mentioned in pixels are dont change and are FIXED.
+- To make the font size dynamic, use percentages.
+- Dynamic means, change according to the default font size of the browser.
+
+FLOAT PROPERTY!
+- use float property to float elements to the left or right.
+- if you want to anti float certain elements, then use clear property with left or right as values;
+
+IMP POINTS!
+- Web safe fonts
+
+IMP WEBSITES:
+- CSS Font stack.com to see the most web safe fonts by percentage.
+- FLATICONS.com for awesome icons
+- favicons
+*/
+/*HOW TO CENTRE? watch video!! and also watch font size units video again!!*/
+
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 562.5%; /* 90px/16px = 5.62 *100 562.5*/
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    
+}
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* 40px/16 */
+    font-weight: normal;
+    padding-bottom: 10px; 
+}
+h3 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  width: 5%;
+  border-top-style: none;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #EAF6F6;
+}
+.top-container {
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.middle-container {
+
+  margin: 100px 0; 
+   
+    
+}
+.bottom-container {
+   background-color: #66bfbf;
+   padding: 50px
+}
+
+.pro {
+    text-decoration: underline;
+}
+.intro {
+
+  width: 30%;
+  margin: auto;
+}
+.cloud-top {
+    position: absolute;
+    left: 800px;
+    top: 150px;
+}
+.cloud-bottom {
+    position: absolute;
+}
+
+.profile-pic {
+  border-radius: 100%;;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 10px;
+}
+.skill-row {
+  width: 45%;
+  margin: 100px auto 100px auto;
+  
+}
+.html {
+  width: 25%;
+}
+
+.css {
+  width: 25%;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.copyright {
+  color: #EAEAF6;
+  font-size: 75%;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+/*.css-description {
+  clear: right;
+}*/
