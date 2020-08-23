@@ -183,7 +183,47 @@ a:hover {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+@media only screen and (max-width: 768px) {
+  .mountain{
+    max-width: 100%;
+  }
+  
+  
+  .cloud-top {
+    max-width: 100%;
+    position: absolute;
+    right: 20px;
+    top: 200px;
+    width: 30%;
+  }
 
+  .cloud-bottom {
+    width: 20%;
+    padding-left: 10px;
+  }
+
+  h1 {
+    font-size: 250%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .intro {
+    width: 90%;
+  }
+
+  .skill-row {
+    width: 90%;
+  }
+
+  .contact-message {
+    width: 90%;
+  }
+
+  
+}
 
 /*.css-description {
   clear: right;
