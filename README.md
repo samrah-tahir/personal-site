@@ -1,2 +1,2 @@
 # personal-site
-Personal website built by the guidance of Angela Yu!
+My very first website! Since I am just a beginner, I am made this purely with HTML5 and CSS3. 
