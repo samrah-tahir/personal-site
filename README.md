@@ -1,2 +1,2 @@
 # personal-site
-Personal website guided by Angela Yu!
+Personal website built by the guidance of Angela Yu!
